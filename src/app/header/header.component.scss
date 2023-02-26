@@ -1,0 +1,14 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+:host ::ng-deep p-menuBar.app-navbar {
+  .p-menuitem-link-active {
+    background-color: var(--blue-700);
+  }
+  .p-menuitem-link:not(.p-menuitem-link-active):hover {
+    background-color: var(--blue-900) !important;
+  }
+}

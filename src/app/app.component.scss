@@ -1,0 +1,10 @@
+$header-height: 48px;
+
+app-header {
+  width: 100%;
+  height: $header-height;
+}
+.page-contents {
+  width: 100%;
+  height: calc(100vh - $header-height);
+}
